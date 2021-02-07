@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:id="@+id/calcInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:padding="0sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/calcOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:padding="10sp"
+        android:text="" />
+
+
+</LinearLayout>
